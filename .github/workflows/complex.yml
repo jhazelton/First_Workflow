@@ -8,6 +8,7 @@ jobs:
      steps:
      - run:  date
      - run: echo Hello Jim
+     - run: ls
   windows:
      runs-on: windows-latest
      steps:
