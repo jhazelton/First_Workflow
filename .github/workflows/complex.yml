@@ -13,6 +13,7 @@ jobs:
      runs-on: windows-latest
      steps:
      - run:  date
+     - run:  dir
   macos:
      runs-on: macos-latest
      steps:
