@@ -7,7 +7,7 @@ jobs:
      runs-on: ubuntu-latest
      steps:
      - run:  date
-     run echo "Hello Jim"
+     run: echo Hello Jim
   windows:
      runs-on: windows-latest
      steps:
